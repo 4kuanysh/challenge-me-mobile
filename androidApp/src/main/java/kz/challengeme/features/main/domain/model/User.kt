@@ -1,4 +1,5 @@
 package kz.challengeme.features.main.domain.model
 
-class User {
-}
+data class User(
+    val name: String
+)

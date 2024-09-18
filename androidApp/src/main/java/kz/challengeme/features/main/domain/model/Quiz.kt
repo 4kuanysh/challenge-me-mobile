@@ -1,4 +1,5 @@
 package kz.challengeme.features.main.domain.model
 
-class Quiz {
-}
+data class Quiz(
+    val author: User
+)
